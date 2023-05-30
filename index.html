@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+<body>
+  <main>
+    <div class="container">  
+      <div class="wrapper">
+        <div class="first-section">
+          <div class="parent">
+          <div class="headText">
+            <h1>Stay updated!</h1>
+          </div>
+          <div class="subtext">Join 60,000+ product managers receiving monthly updates on:</div>
+          <div class="itemList">
+            <ul>
+              <li>Product discovery and building what matters</li>
+              <li>Measuring to ensure updates are a success</li>
+              <li>And much more!</li>
+            </ul>
+          </div>
+          <form name="myForm" id="myForm">
+            <label for="email">Email address <span class="inputErr"></span></label>
+            <div class="inputEle">
+              <input type="Email" id="email" placeholder="email@company.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required">
+            </div>
+            <button id="submit" class="submit">Subscribe to monthly newsletter</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="second-section">
+        <div class="image">
+      
+        </div>
+      </div>
+      </div>
+    </div>
+
+<!-- success message start -->
+    <div class="successPage">
+      <div class="wrapper">
+        <div class="svg"></div>
+        <h1>Thanks for subscribing!</h1>
+      <div class="textDetails">
+      </div>
+      <button id="dismiss">Dismiss message</button>
+      </div>
+    </div>
+     <!-- Success message end -->
+  </main>
+  <script src="style.js"></script>
+</body>
+</html>
