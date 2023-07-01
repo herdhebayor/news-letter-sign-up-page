@@ -23,8 +23,8 @@ main{
     color: hsl(234, 29%, 20%);
 }
 .container{
-    width: 50%;
-    height: 70%;
+    width: 600px;
+    height:500px;
     min-height: fit-content;
     overflow: hidden;
     border-radius: 20px;
@@ -153,27 +153,7 @@ input{
 .successPage button{
     margin-top: 25px;
 }
-@media screen and (max-width:1050px) {
-    .container{
-        width: 60%;
-        height: 80%;
-    }
-    .successPage{
-        height: 60%;
-        width: 30%;
-    }
-    
-}
-@media screen and (max-width:950px) {
-    .container{
-        width: 90%;
-        height: 50%;
-    }  
-    .successPage{
-        height: 35%;
-        width: 35%;
-    }
-}
+
 @media screen and (max-width:600px) {
     html{
         height: 100%;
